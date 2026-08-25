@@ -1,0 +1,9 @@
+ID,Variant,Linear,Conv,Gate,Bidirectional,Fusion,IEMOCAP_WA_mean,IEMOCAP_WA_sd,IEMOCAP_UA_mean,IEMOCAP_UA_sd,ESD_WA_mean,ESD_WA_sd,ESD_UA_mean,ESD_UA_sd
+S1,Standard cross-attention,0,0,0,1,Time concatenation,69.56,3.35,70.89,2.03,74.51,0.95,74.47,1.02
+S2,Original linear cross-attention,1,0,0,1,Time concatenation,70.26,2.05,70.91,2.04,74.66,1.05,75.26,1.21
+S3,Cross-MILA w/o Conv,1,0,1,1,Time concatenation,70.25,1.99,70.78,1.59,75.06,1.17,75.31,1.66
+S4,Cross-MILA w/o Gate,1,1,0,1,Time concatenation,70.27,1.44,70.77,1.72,75.52,1.28,75.36,1.27
+S5,Single-direction Cross-MILA,1,1,1,0,Single branch,70.11,1.35,70.16,1.24,75.20,1.22,75.17,1.92
+S6,Branchwise pooling then fusion,1,1,1,1,Pooled fusion,71.20,1.42,71.02,1.21,76.09,1.01,75.31,1.42
+S7,Complete Cross-MILA (CE only),1,1,1,1,Time concatenation,71.23,2.22,72.24,1.35,76.17,0.99,75.99,1.21
+

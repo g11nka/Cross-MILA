@@ -1,0 +1,15 @@
+Cross-MILA
+Copyright (c) 2026 Ginka
+
+This repository is derived from MemoCMT by Trần Phương Nam:
+https://github.com/tpnam0901/MemoCMT
+
+The upstream copyright notice and MIT license are retained in LICENSE.
+Cross-MILA modifies the upstream project by introducing a bidirectional
+locality-aware linear cross-modal interaction module, paired RBF alignment and
+decorrelation objectives, speaker-independent five-fold evaluation utilities,
+additional baselines and ablations, and reproducibility/efficiency tooling.
+
+The original datasets, pretrained HuBERT/BERT weights, and experiment
+checkpoints are not redistributed by this repository. Their respective terms
+and licenses continue to apply.

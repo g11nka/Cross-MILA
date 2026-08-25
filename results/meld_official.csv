@@ -1,0 +1,4 @@
+dataset,model,WA,UA,Macro-F1,Weighted-F1
+MELD,Reproduced MemoCMT,64.52,37.91,39.48,61.15
+MELD,Cross-MILA,61.80,40.46,40.84,59.39
+
