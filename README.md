@@ -21,8 +21,8 @@ the English subset of ESD. Values below are five-fold means.
 |---|---|---:|---:|---:|---:|
 | IEMOCAP | Reproduced MemoCMT | 69.56 | 70.89 | 70.23 | 69.48 |
 | IEMOCAP | Cross-MILA | **74.49** | **74.80** | **74.90** | **74.45** |
-| ESD | Reproduced MemoCMT | 74.51 | 74.47 | 74.29 | 74.54 |
-| ESD | Cross-MILA | **79.73** | **79.87** | **79.65** | **79.75** |
+| ESD | Reproduced MemoCMT | 74.51 | 74.50 | 74.29 | 74.29 |
+| ESD | Cross-MILA | **79.74** | **79.73** | **79.45** | **79.45** |
 
 Fold-level measurements, controlled ablations, unimodal baselines, MELD
 results, and efficiency measurements are versioned in [`results/`](results/).
